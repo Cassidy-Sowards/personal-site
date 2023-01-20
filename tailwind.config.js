@@ -9,6 +9,14 @@ module.exports = {
       xl: '1440px',
       xxl:'1536px'
     },
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+      circle: 'circle',
+    },
     extend: {
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
