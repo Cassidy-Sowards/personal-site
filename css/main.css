@@ -604,6 +604,10 @@ video {
   max-width: fit-content;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .list-circle {
   list-style-type: circle;
 }
@@ -682,8 +686,16 @@ video {
   justify-self: center;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
 }
 
 .rounded-lg {
@@ -879,6 +891,22 @@ video {
     height: 45;
   }
 
+  .md\:h-\[35vh\] {
+    height: 35vh;
+  }
+
+  .md\:h-\[30vh\] {
+    height: 30vh;
+  }
+
+  .md\:h-\[40vh\] {
+    height: 40vh;
+  }
+
+  .md\:h-\[25vh\] {
+    height: 25vh;
+  }
+
   .md\:w-7\/12 {
     width: 58.333333%;
   }
@@ -947,6 +975,18 @@ video {
 
   .md\:pl-0 {
     padding-left: 0px;
+  }
+
+  .md\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .md\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
+  .md\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .md\:text-4xl {
