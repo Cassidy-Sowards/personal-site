@@ -1,3 +1,4 @@
+//Showing the header after scrolling
 const navbar = document.getElementById("navbar");
 addEventListener("scroll", () => {
     if(window.scrollY > 400){
@@ -12,3 +13,5 @@ addEventListener("scroll", () => {
         
     }
 });
+
+const checkbox = document.getElementById("")
